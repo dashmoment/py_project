@@ -34,8 +34,6 @@ svm_iris = mlpy.LibSvm.load_model('svm_for_iris')
 yp_iris = svm_iris.pred_probability(zgrid)
 
 
-
-
 #plt.set_cmap(plt.cm.Paired)
 fig2 = plt.figure(2)
 title = plt.title("SVM (linear kernel) on principal components")
