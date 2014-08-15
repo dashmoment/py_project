@@ -36,7 +36,7 @@ yp_iris = svm_iris.pred_probability(zgrid)
 
 
 
-#plt.set_cmap(plt.cm.Paired)
+plt.set_cmap(plt.cm.Paired)
 fig2 = plt.figure(2)
 title = plt.title("SVM (linear kernel) on principal components")
 plot1 = plt.pcolormesh(xx, yy, yp.reshape(xx.shape))
